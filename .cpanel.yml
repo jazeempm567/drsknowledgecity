@@ -1,0 +1,16 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/fgutwjmq/drsknowledgecity.com/
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R scss $DEPLOYPATH
+    - /bin/cp academy_of_science.html $DEPLOYPATH
+    - /bin/cp drs_business_school.html $DEPLOYPATH
+    - /bin/cp drs_school.html $DEPLOYPATH
+    - /bin/cp enroll_form.html $DEPLOYPATH
+    - /bin/cp footer.html $DEPLOYPATH
+    - /bin/cp header.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp media_design.html $DEPLOYPATH
