@@ -480,7 +480,7 @@ a:hover, a:focus, a:active {
   .probootstrap-navbar .navbar-brand {
     position: relative;
     width: 160px;
-    height: 43px;
+    height: 60px;
     background: url(../img/logos/logo1.png) no-repeat left 100%;
 
     background-size: cover;
