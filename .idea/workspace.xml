@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf12e33a-b8fe-4c8e-a97d-1a86e56664fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/academy_of_science.html" beforeDir="false" afterPath="$PROJECT_DIR$/academy_of_science.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drs_business_school.html" beforeDir="false" afterPath="$PROJECT_DIR$/drs_business_school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enroll_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/enroll_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media_design.html" beforeDir="false" afterPath="$PROJECT_DIR$/media_design.html" afterDir="false" />
-    </list>
+    <list default="true" id="bf12e33a-b8fe-4c8e-a97d-1a86e56664fa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +11,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -44,8 +37,8 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="54" column="131" selection-start-line="54" selection-start-column="131" selection-end-line="54" selection-end-column="131" />
+            <state relative-caret-position="555">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
               </folding>
@@ -69,8 +62,8 @@
       <file leaf-file-name="enroll_form.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enroll_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+            <state relative-caret-position="204">
+              <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -87,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drs_business_school.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="drs_business_school.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/drs_business_school.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="259">
@@ -155,14 +148,14 @@
       <find>min-height:</find>
       <find>nav</find>
       <find>navbar</find>
-      <find />
+      <find>@media screen</find>
       <find>.navbar{</find>
       <find>.navbar</find>
       <find>.probootstrap-navbar</find>
       <find>navbar-brand</find>
       <find>navbar-toggle</find>
-      <find />
-      <find />
+      <find>&lt;span class=&quot;probootstrap-meta&quot;&gt;&lt;i class=&quot;icon-calendar2&quot;&gt;&lt;/i&gt; July 10, 2017&lt;/span&gt;</find>
+      <find>&lt;a href=&quot;#&quot; class=&quot;btn btn-primary&quot;&gt;Enroll now&lt;/a&gt;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,10 +175,10 @@
         <option value="$PROJECT_DIR$/success.html" />
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/footer.html" />
-        <option value="$PROJECT_DIR$/enroll_form.html" />
         <option value="$PROJECT_DIR$/academy_of_science.html" />
         <option value="$PROJECT_DIR$/media_design.html" />
         <option value="$PROJECT_DIR$/drs_business_school.html" />
+        <option value="$PROJECT_DIR$/enroll_form.html" />
       </list>
     </option>
   </component>
@@ -250,7 +243,7 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,18 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/drs_school.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-380">
@@ -455,23 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="54" column="131" selection-start-line="54" selection-start-column="131" selection-end-line="54" selection-end-column="131" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enroll_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/academy_of_science.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -504,6 +468,35 @@
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enroll_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#1;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
