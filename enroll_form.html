@@ -34,59 +34,97 @@
                         <div class="col-md-7 col-md-push-1  probootstrap-animate" id="probootstrap-content">
                             <h2>Enroll Your Course</h2>
                             <!--<p>Contact us using the form below.</p>-->
-                            <form action="https://drsform.pythonanywhere.com/" method="post" enctype="multipart/form-data" class="probootstrap-form">
+                            <form action="https://drsform.pythonanywhere.com/" method="post"
+                                  enctype="multipart/form-data" class="probootstrap-form">
 
                                 <div class="form-group">
                                     <label for="course">Select Course</label>
-                                    <select id="course" name="course" class="form-control">
-                                        <option>select course</option>
-                                        <option value="B.VOC in Operation Theatre Technology">B.VOC in Operation Theatre Technology</option>
-                                        <option value="B.VOC Medical Imaging Technology">B.VOC Medical Imaging Technology</option>
-                                        <option value="B.VOC Cardiac Care Technology">B.VOC Cardiac Care Technology</option>
-                                        <option value="B.VOC Medical Laboratory Technology">B.VOC Medical Laboratory Technology</option>
-                                        <option value="B.VOC Dialysis Technology">B.VOC Dialysis Technology</option>
-                                        <option value="DIPLOMA IN Operation Theatre Technology">DIPLOMA IN Operation Theatre Technology</option>
-                                        <option value="DIPLOMA IN Radiology & Imaging Technology">DIPLOMA IN Radiology & Imaging Technology</option>
-                                        <option value="DIPLOMA IN Medical Laboratory Technology">DIPLOMA IN Medical Laboratory Technology</option>
-                                        <option value="DIPLOMA IN Dialysis Technician">DIPLOMA IN Dialysis Technician</option>
+                                    <select id="course" name="course" class="form-control" required>
+                                        <option value="" selected disabled>Choose one</option>
+                                        <optgroup label="D.R.S Academy Of Science">
+                                            <option value="B.VOC in Operation Theatre Technology">B.VOC in Operation
+                                                Theatre Technology
+                                            </option>
+                                            <option value="B.VOC Medical Imaging Technology">B.VOC Medical Imaging
+                                                Technology
+                                            </option>
+                                            <option value="B.VOC Cardiac Care Technology">B.VOC Cardiac Care
+                                                Technology
+                                            </option>
+                                            <option value="B.VOC Medical Laboratory Technology">B.VOC Medical Laboratory
+                                                Technology
+                                            </option>
+                                            <option value="B.VOC Dialysis Technology">B.VOC Dialysis Technology</option>
+                                            <option value="DIPLOMA IN Operation Theatre Technology">DIPLOMA IN Operation
+                                                Theatre Technology
+                                            </option>
+                                            <option value="DIPLOMA IN Radiology & Imaging Technology">DIPLOMA IN
+                                                Radiology & Imaging Technology
+                                            </option>
+                                            <option value="DIPLOMA IN Medical Laboratory Technology">DIPLOMA IN Medical
+                                                Laboratory Technology
+                                            </option>
+                                            <option value="DIPLOMA IN Dialysis Technician">DIPLOMA IN Dialysis
+                                                Technician
+                                            </option>
+                                        </optgroup>
 
+                                        <optgroup label="D.R.S Business School">
+                                            <option value="BBA AIRLINE & AIRPORT MANAGEMENT">BBA AIRLINE & AIRPORT
+                                                MANAGEMENT
+                                            </option>
+                                            <option value="BBA LOGISTICS & SUPPLY CHAIN MANAGEMENT">BBA LOGISTICS &
+                                                SUPPLY
+                                                CHAIN MANAGEMENT
+                                            </option>
+                                        </optgroup>
 
-                                        <option value="BBA AIRLINE & AIRPORT MANAGEMENT">BBA AIRLINE & AIRPORT MANAGEMENT</option>
-                                        <option value="BBA LOGISTICS & SUPPLY CHAIN MANAGEMENT">BBA LOGISTICS & SUPPLY CHAIN MANAGEMENT</option>
-
-                                        <option value="DIPLOMA IN INTERIOR DESIGNING (2 Years)">DIPLOMA IN INTERIOR DESIGNING (2 Years)</option>
-                                        <option value="B.SC INTERIOR DESIGNING (3 Years)">B.SC INTERIOR DESIGNING (3 Years)</option>
-                                        <option value="B.SC COSTUME & FASHION DESIGNING (3 Years)">B.SC COSTUME & FASHION DESIGNING (3 Years)</option>
-                                        <option value="DIPLOMA IN FASHION DESIGNING (2 Years)">DIPLOMA IN FASHION DESIGNING (2 Years)</option>
+                                        <optgroup label="D.R.S Media & Design School">
+                                            <option value="DIPLOMA IN INTERIOR DESIGNING (2 Years)">DIPLOMA IN INTERIOR
+                                                DESIGNING (2 Years)
+                                            </option>
+                                            <option value="B.SC INTERIOR DESIGNING (3 Years)">B.SC INTERIOR DESIGNING (3
+                                                Years)
+                                            </option>
+                                            <option value="B.SC COSTUME & FASHION DESIGNING (3 Years)">B.SC COSTUME &
+                                                FASHION DESIGNING (3 Years)
+                                            </option>
+                                            <option value="DIPLOMA IN FASHION DESIGNING (2 Years)">DIPLOMA IN FASHION
+                                                DESIGNING (2 Years)
+                                            </option>
+                                        </optgroup>
                                     </select>
                                 </div>
                                 <div class="form-group">
                                     <label for="name">Full Name</label>
-                                    <input type="text" class="form-control" id="name" name="name">
+                                    <input type="text" class="form-control" id="name" name="name" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" name="email">
+                                    <input type="email" class="form-control" id="email" name="email" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="phone">Phone Number</label>
-                                    <input type="text" class="form-control" id="phone" name="phone">
+                                    <input type="text" class="form-control" id="phone" name="phone" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="address">Address</label>
-                                    <input type="text" class="form-control" id="address" name="address">
+                                    <input type="text" class="form-control" id="address" name="address" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="parent_name">Parent Name</label>
-                                    <input type="text" class="form-control" id="parent_name" name="parent_name">
+                                    <input type="text" class="form-control" id="parent_name" name="parent_name"
+                                           required>
                                 </div>
                                 <div class="form-group">
                                     <label for="parent_occupation">Parent's Occupation</label>
-                                    <input type="text" class="form-control" id="parent_occupation" name="parent_occupation">
+                                    <input type="text" class="form-control" id="parent_occupation"
+                                           name="parent_occupation" required>
                                 </div>
                                 <div class="form-group">
                                     <label for="parent_phone">Parent's Phone Number</label>
-                                    <input type="text" class="form-control" id="parent_phone" name="parent_phone">
+                                    <input type="text" class="form-control" id="parent_phone" name="parent_phone"
+                                           required>
                                 </div>
 
                                 <div class="form-group">
@@ -135,6 +173,8 @@ $(function(){
   $("#header").load("header.html");
   $("#footer").load("footer.html");
 });
+
+
 
 
 
